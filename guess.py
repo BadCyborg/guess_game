@@ -4,7 +4,7 @@ from random import randint
 var=randint(1,100)
 guesslist=[]
 difference_list=[]
-turn=0
+turn=1
 while guess!=var:
     guess=int(input("Enter a number: "))
     difference=abs(guess-var)
