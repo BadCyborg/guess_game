@@ -18,7 +18,7 @@ while guess!=var:
         guesslist.append(guess)
         continue
     elif difference<=10 and turn==0:
-        print("WARM!")
+        print("WARM!!")
         guesslist.append(guess)
         turn+=1
         continue
