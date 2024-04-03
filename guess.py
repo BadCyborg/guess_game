@@ -10,7 +10,7 @@ while guess!=var:
     difference=abs(guess-var)
     difference_list.append(difference)
     if guess<1 or guess>100:
-        print("OUT OF BOUNDS")
+        print("OUT OF BOUNDS"
         turn+=1
         guesslist.append(guess)
         continue
